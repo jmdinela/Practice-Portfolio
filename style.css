@@ -1,0 +1,76 @@
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+* {
+	/*Default Font*/
+	font-family: 'Monserat', sans-serif;
+	color: white;
+}
+
+h1,h2 {
+
+	font-family: 'Roboto', sans-serif;
+}
+img {
+	height: 250px;
+	width: 250px;
+	border-radius: 10px;
+}
+
+
+#landing {
+	height: 80vh;
+	/*center the content,(image,heading and parangraph)
+	horizontally and vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 6px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+h2
+{
+	color: #007bff;
+}
+
+.tools {
+	padding: 25px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	height: 200px;
+	width: 75%;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+/*Background*/
+body{
+	background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  	
+}
